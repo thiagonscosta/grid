@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.grid {
+    display: block;
+    padding: 16px;
+    display: grid;
+    grid-gap: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.col {
+    background-color: pink;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.img-block {
+    align-self: start;
+    padding: 0;
+    background-color: none;
+}
