@@ -6,6 +6,10 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+body {
+    background-color: #f5f7f9;
+}
+
 .grid {
     display: block;
     padding: 16px;
@@ -32,9 +36,12 @@
 }
 
 .col {
-    background-color: pink;
     margin-bottom: 16px;
     padding: 16px;
+}
+
+.card {
+    background-color: #e7e9eb;
 }
 
 .img-block {
